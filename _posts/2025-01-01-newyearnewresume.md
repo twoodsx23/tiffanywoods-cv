@@ -56,7 +56,3 @@ Next time you’re reviewing applications, consider checking out a candidate's o
 **Call to Action:**
 
 What are your thoughts on website resumes? Have you had any experience with them? Share your thoughts in the comments below!
-
----
-
-This structure should give you a solid 3-5 minute read. Let me know if you’d like any changes or additions!
