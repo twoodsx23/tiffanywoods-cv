@@ -1,6 +1,4 @@
 
-# Welcome to my resume
-
 ---
 
 ## About Me
