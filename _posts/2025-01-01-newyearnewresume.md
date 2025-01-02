@@ -1,3 +1,7 @@
+---
+title: "Welcome to my blog"
+date: 2019-01-20
+---
 
 In today’s fast-paced digital world, a traditional resume might not be enough to stand out from the crowd. As hiring managers, we’re all familiar with the endless stack of Word documents that land in our inboxes, but what if there was a way to showcase a candidate's skills and personality in a more engaging and dynamic way? Enter the online resume: a creative, tech-forward solution that not only captures attention but also gives candidates an opportunity to highlight their work in an interactive format. Let’s explore why it might be time to consider viewing resumes on websites instead of just relying on static Word documents.
 
