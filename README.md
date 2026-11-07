@@ -1,57 +1,53 @@
-<header>
+# Tiffany Woods: Interactive Resume & Portfolio
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+An interactive resume and portfolio for Senior, Lead and Principal Product Manager roles. It's a static site (plain HTML, CSS and JavaScript) with no build step and no dependencies.
 
-# GitHub Pages
+## What's inside
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+- **Fit check**: paste a job description or pick requirements to see matching evidence. Runs entirely in the browser; nothing is stored or sent.
+- **Case studies**: self-service configuration proposal, release governance, requirements mockup, forms taxonomy and product vision.
+- **Senior PM Proof-of-Work Kit**: a one-page PRD, an interactive 24-case eval set with a release gate, and an impact model with adjustable assumptions. Built around AI-assisted submission intake for commercial trucking underwriting.
+- **Experience, skills and contact**, plus a downloadable resume.
 
-</header>
+## Files
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+```
+index.html            Page structure and content
+styles.css            Design and layout
+data.js               Content data: skills evidence, experience, eval cases, impact model inputs
+app.js                Interactivity
+assets/               Images, resume (.docx) and eval set (.csv)
+.nojekyll             Tells GitHub Pages to serve files as-is
+```
 
-## Finish
+## Publish with GitHub Pages
 
-_Congratulations friend, you've completed this course!_
+1. Create a new repository on GitHub (for example `portfolio`). Public repositories get free Pages hosting.
+2. Upload the contents of this folder to the repository root: **Add file → Upload files**, then drag in everything, including the `assets` folder. Commit.
+3. Go to **Settings → Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose `main` and `/ (root)`, and save.
+4. After a minute or two the site is live at `https://<your-username>.github.io/<repo-name>/`.
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+Tip: name the repository `<your-username>.github.io` to publish at `https://<your-username>.github.io/` directly.
 
-Your blog is now live and has been deployed!
+## Preview locally
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Open `index.html` in a browser, or run a local server from this folder:
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+```
+python3 -m http.server 8000
+```
 
-### What's next?
+Then visit http://localhost:8000.
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+## Editing
 
-<footer>
+- Most text lives in `index.html`.
+- Skills evidence, experience, eval cases and impact model presets live in `data.js`.
+- If you update the eval cases, also update `assets/Submission-Intake-Eval-Set.csv`.
+- Fonts load from Fontshare (Zodiak, General Sans) and Google Fonts (JetBrains Mono).
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+## Notes
 
----
+The Proof-of-Work Kit is a hypothetical scenario written for this portfolio, not a plan of any current or past employer or client. Views are my own.
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+© Tiffany Woods. All rights reserved.
