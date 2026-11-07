@@ -349,3 +349,13 @@
   }, { threshold: 0.3 });
   widgetIO.observe($('#triage-dots'));
 })();
+(function () {
+  /* ---------- Back to top (wordmark + footer link) ---------- */
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href="#top"]'); if (!a) return;
+    e.preventDefault();
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    if (history.replaceState) history.replaceState(null, '', location.pathname + location.search);
+  });
+})();
